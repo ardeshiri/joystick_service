@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="joystick_ctrl_service" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/joystick_ctrl_service" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/joystick_ctrl_service" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/CPPAMQP.h" />
+		<Unit filename="include/JK_state.h" />
+		<Unit filename="include/Joystick_mediator.h" />
+		<Unit filename="include/Joystick_observer.h" />
+		<Unit filename="include/Motor_med.h" />
+		<Unit filename="include/Servo_med.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/CPPAMQP.cpp" />
+		<Unit filename="src/JK_state.cpp" />
+		<Unit filename="src/Joystick_mediator.cpp" />
+		<Unit filename="src/Joystick_observer.cpp" />
+		<Unit filename="src/Motor_med.cpp" />
+		<Unit filename="src/Servo_med.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

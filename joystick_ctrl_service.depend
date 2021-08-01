@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1627831088 source:/home/arash/Code/codeblocks/joystick_ctrl_service/main.cpp
+	<iostream>
+	"Joystick_mediator.h"
+	"Joystick_observer.h"
+	"CPPAMQP.h"
+	"Servo_med.h"
+	"Motor_med.h"
+	<algorithm>
+
+1611660756 source:/home/arash/Code/codeblocks/joystick_ctrl_service/src/CPPAMQP.cpp
+	"CPPAMQP.h"
+	<exception>
+	<vector>
+	<cstring>
+
+1611660746 /home/arash/Code/codeblocks/joystick_ctrl_service/include/CPPAMQP.h
+	<amqp.h>
+	<amqp_ssl_socket.h>
+	<amqp_tcp_socket.h>
+	<stdlib.h>
+	<string>
+	<vector>
+	<map>
+	<tuple>
+	<iostream>
+	<optional>
+
+1626672476 source:/home/arash/Code/codeblocks/joystick_ctrl_service/src/Joystick_mediator.cpp
+	"Joystick_mediator.h"
+	<thread>
+	"JK_state.h"
+
+1627152929 /home/arash/Code/codeblocks/joystick_ctrl_service/include/Joystick_mediator.h
+	<chrono>
+	<SFML/Window/Joystick.hpp>
+	<bitset>
+	<vector>
+	"Joystick_observer.h"
+
+1626618829 source:/home/arash/Code/codeblocks/joystick_ctrl_service/src/Joystick_observer.cpp
+
+1626620748 source:/home/arash/Code/codeblocks/joystick_ctrl_service/src/JK_state.cpp
+
+1627152942 /home/arash/Code/codeblocks/joystick_ctrl_service/include/Joystick_observer.h
+	"JK_state.h"
+
+1626672068 /home/arash/Code/codeblocks/joystick_ctrl_service/include/JK_state.h
+
+1627831040 /home/arash/Code/codeblocks/joystick_ctrl_service/include/Servo_med.h
+	"Joystick_mediator.h"
+	"Joystick_observer.h"
+	"CPPAMQP.h"
+
+1627831040 /home/arash/Code/codeblocks/joystick_ctrl_service/include/Motor_med.h
+	"Joystick_mediator.h"
+	"Joystick_observer.h"
+	"CPPAMQP.h"
+
+1627831088 source:/home/arash/Code/codeblocks/joystick_ctrl_service/src/Motor_med.cpp
+	"Motor_med.h"
+
+1627831088 source:/home/arash/Code/codeblocks/joystick_ctrl_service/src/Servo_med.cpp
+	"Servo_med.h"
+
